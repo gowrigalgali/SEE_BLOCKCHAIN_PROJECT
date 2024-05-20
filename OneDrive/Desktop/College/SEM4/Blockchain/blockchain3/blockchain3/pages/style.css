@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+   
+  }
+  img{
+    width:600px;
+    height:400px;
+    border-radius:15px;
+    padding:30px;
+   }
+  button{
+    background-color:#298781;
+    border:none;
+    border-radius: 10px;
+    padding:20px;
+    font-size: 20px;
+    color:whitesmoke;
+  }
+  input{
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    padding: 20px;
+    width:300px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    
+  }
+  .buttons{
+    display:flex;
+    justify-content: space-around; 
+    width: 100%;
+    margin-top: 20px; 
+  }
+  #highestBid{
+    color:whitesmoke;
+    padding:30px;
+    font-size: 30px;
+  }
